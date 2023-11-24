@@ -16,10 +16,10 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: app-admin
-  namespace: app
+  namespace: app2
 subjects:
 - kind: ServiceAccount
-  name: ns-reconciler-app-repo-sync-app-13
+  name: ns-reconciler-app2
   namespace: config-management-system
 roleRef:
   kind: ClusterRole
