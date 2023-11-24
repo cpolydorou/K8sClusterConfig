@@ -26,7 +26,7 @@ spec:
     # If you fork this repo, change the url to point to your fork
     repo: https://github.com/cpolydorou/K8sClusterConfigSampleNamespace
     # If you move the configs to a different branch, update the branch here
-    branch: main
+    branch: demo
     dir: namespaces/gamestore
     # We recommend securing your source repository.
     # Other supported auth: `ssh`, `cookiefile`, `token`, `gcenode`.
